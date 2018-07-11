@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Helpers.FacebookMessengerApi", "Bot.Helpers.FacebookMessengerApi\Bot.Helpers.FacebookMessengerApi.csproj", "{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{211AE6B0-8EB2-4FB0-8834-054C5CF0A9EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distributed", "Distributed", "{E15E9C0C-2C6D-4F0A-95A3-25FB5D3E98F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Distributed.TestApi", "Bot.Distributed.TestApi\Bot.Distributed.TestApi.csproj", "{29D5C10F-5A55-4272-A4F7-7E1F02C7C955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D6A14139-2DA0-4879-8EC4-44D7FCB11F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Application.Service", "Bot.Application.Service\Bot.Application.Service.csproj", "{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D5C10F-5A55-4272-A4F7-7E1F02C7C955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D5C10F-5A55-4272-A4F7-7E1F02C7C955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D5C10F-5A55-4272-A4F7-7E1F02C7C955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D5C10F-5A55-4272-A4F7-7E1F02C7C955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{150F0AC5-C8AA-4B55-A0B0-D2B45C2B87F5} = {211AE6B0-8EB2-4FB0-8834-054C5CF0A9EA}
+		{29D5C10F-5A55-4272-A4F7-7E1F02C7C955} = {E15E9C0C-2C6D-4F0A-95A3-25FB5D3E98F7}
+		{0AEFFED8-ACC8-452C-A337-BBAC78B3CEA8} = {D6A14139-2DA0-4879-8EC4-44D7FCB11F79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03DE791F-9762-43F6-BD35-F903C3DECB84}
+	EndGlobalSection
+EndGlobal
